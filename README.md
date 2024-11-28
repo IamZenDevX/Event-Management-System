@@ -5,7 +5,8 @@ An event management system is a comprehensive tool meant to simplify preparation
 
 <h2 align="left">Key Features:</h2>
 
-1. **User Model**: 
+1. **User Model**:
+   
 - serves many roles including merchants, visitors, and planners thereby ensuring role-specific access and utility.
 2. **Event Model**:
 - Event Model offers the basic framework of the system by compiling details about the event like date, time, place, and related activities.
