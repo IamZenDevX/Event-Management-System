@@ -128,6 +128,7 @@ The platform will require a relational database to manage User,Event,Registratio
 <h2 align="left"> Use Cases:</h2>
 
 - **Event Creation and Scheduling**
+  
     - Event planners can create agendas, design events, and offer event details including time, venue, and date.
 - **Venue and Resource Booking**
     - helps events to be hosted with perfect booking of venue, tools, and other resources required.
