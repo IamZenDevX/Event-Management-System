@@ -1,19 +1,19 @@
 # Event-Management-System
-# **Introduction:**
+<h2 align="left">Introduction:</h2>
 
 An event management system is a comprehensive tool meant to simplify preparation, implementation, and coordination of an event. It offers a whole approach for handling several facets of events, including participant registration, venue booking, activity planning, and participant feedback collection. Combining important models including users, events, registrations, reservations, and reviews assures participants as well as organizers a flawless experience. Reducing mistakes and increasing efficiency helps real-time updates and automation of administrative activities to help to coordinate events generally. From little meetings to large conferences, this system is perfect for organizing all kinds of events since it provides a user-friendly interface and tremendous potential to simplify process of event management.
 
-# **Key Features:**
+<h2 align="left">Key Features:</h2>
 
 1. **User Model**: 
 - serves many roles including merchants, visitors, and planners thereby ensuring role-specific access and utility.
-1. **Event Model**:
+2. **Event Model**:
 - Event Model offers the basic framework of the system by compiling details about the event like date, time, place, and related activities.
-1. **Booking Model**: 
+3. **Booking Model**: 
 - Designed to ensure flawless and open schedule, Booking Model allows users to reserve venues, locations, or resources.
-1. **Registration Model**: 
+4. **Registration Model**: 
 - Managers participant registrations, tracks attendance records and confirmations, hence preserving Registration Model.
-1. **Review Model**: 
+5. **Review Model**: 
 - Depending on attendance experiences, Review Model let organisers apply input collection and analysis to help to improve forthcoming events.
 
 <h2 align="left"> Tools Used:</h2>
@@ -42,7 +42,7 @@ An event management system is a comprehensive tool meant to simplify preparation
 - multer
 - nodemailer
 
-## **Database Structure**
+<h2 align="left">Database Structure</h2>
 
 The platform will require a relational database to manage User,Event,Registration,Review and Booking . Below is a proposed database structure with the key tables.
 
@@ -124,7 +124,7 @@ The platform will require a relational database to manage User,Event,Registratio
 | paymentStatus | String |
 | createdAt |  Date |
 
-# Use Cases:
+<h2 align="left"> Use Cases:</h2>
 
 - **Event Creation and Scheduling**
     - Event planners can create agendas, design events, and offer event details including time, venue, and date.
