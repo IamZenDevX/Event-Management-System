@@ -14,17 +14,18 @@ dotenv.config({ path: "./config.env" });
 const app = require("./app");
 
 // Connect to the MongoDB database
+const dbURI = `mongodb://localhost:27017/`;
+
 mongoose
-  .connect(process.env.DATABASE_LOCAL)
-  .then(() => console.log("DB connection successful!"));
-
-// Define the port to listen on
-const port = process.env.PORT || 3000;
-
+.connect(dbURI)
+.then(() => {
+  app.listen(3000);
+  console.log("MongoDB connected...");
+})
+.catch((err) => console.log(err));
+app.use(ErrorHandler)
 // Start the server
-const server = app.listen(port, () => {
-  console.log(`App running on port ${port} -> ${process.env.NODE_ENV}`);
-});
+
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (err) => {
